@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Baklave&Urmašice</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: Yummy
+  * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <div
+        class="container position-relative d-flex align-items-center justify-content-between"
+      >
+        <a
+          href="index.html"
+          class="logo d-flex align-items-center me-auto me-xl-0"
+        >
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">Baklave&Urmašice</h1>
+          <span> </span>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li>
+              <a href="#hero" class="active">Početna<br /></a>
+            </li>
+            <li><a href="#about">O nama</a></li>
+            <li><a href="#menu">Meni</a></li>
+            <li><a href="#chefs">Kuvari</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a class="btn-getstarted" href="index.html#book-a-table">Naruči</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section light-background">
+        <div class="container">
+          <div
+            class="row gy-4 justify-content-center justify-content-lg-between"
+          >
+            <div
+              class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center"
+            >
+              <h1 data-aos="fade-up">Baklave i <br />Urmašice</h1>
+              <p data-aos="fade-up" data-aos-delay="100">
+                Za sladokusce, hedoniste i ljubitelje hrane proverenog kvaliteta
+                ✨
+              </p>
+              <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+                <a href="#book-a-table" class="btn-get-started">Naruči</a>
+                <a
+                  href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
+                  class="glightbox btn-watch-video d-flex align-items-center"
+                  ><i class="bi bi-play-circle"></i><span>Pogledaj</span></a
+                >
+              </div>
+            </div>
+
+            <!-- Okrugla slika -->
+            <div
+              class="col-lg-5 order-1 order-lg-2 hero-img"
+              data-aos="zoom-out"
+            >
+              <div class="hero-img-wrapper">
+                <img
+                  src="assets/img/hero-img.png"
+                  class="animated"
+                  alt="Hero Image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Hero Section -->
+
+      <!-- About Section -->
+      <section id="about" class="about section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>O nama<br /></h2>
+          <p>
+            <span>Zašto naše</span>
+            <span class="description-title">baklave i urmašice</span>
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <!-- <div class="row gy-4">-->
+          <!--<div class="row gx-2 gy-0 align-items-start">-->
+          <div class="row g-0 align-items-start">
+            <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/about.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-lg-5" data-aos="fade-up" data-aos-delay="250">
+              <div class="content ps-0 ps-lg-2">
+                <p>
+                  Baklave i urmašice, turske, grčke, vranjanske, sarajevske,
+                  koje god da su, uvek su simbol sladokusačkog uživanja u hrani.
+                  Kada osetite taj rafinirani sladak ukus topljenog šećera,
+                  oraha, putera i limuna, uvek vas mami na još.
+                </p>
+                <p>
+                  Slatkiši su nekada bili privilegija, jer užitak je bio
+                  privilegija. Danas su slatkiši na dohvat ruke, lako dostupni,
+                  ali nisu više jedinstven užitak, jer jedemo sve i svašta.
+                </p>
+
+                <p>
+                  Naše baklava i urmašice napravljene su od proverenih
+                  sastojaka, najkvalitetnijeg materijala, bez čega ne bi bilo ni
+                  ovog njihovog specifičnog, dobrog ukusa. Recept je nastao u
+                  Bosni i Hercegovini, a s kolena na koleno, u jednoj porodici,
+                  prenosile su ga Srpkinje, Hrvatice, Čehinje i Jevrejke. Svaka
+                  generacija dodala je po neko poboljšanje, a saveti komšinica
+                  Bošnjakinja, uvek su rado prihvatani.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /About Section -->
+
+      <!-- Why Us Section -->
+      <section id="why-us" class="why-us section light-background">
+        <div class="container">
+          <div class="row gy-4">
+            <!-- Left Box -->
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="why-box">
+                <h3>Zašto izabrati naše baklave i urmašice</h3>
+                <ul>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i>
+                    <span
+                      >Koristimo samo proveren i najkvalitetniji
+                      materijal.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i>
+                    <span
+                      >Recept prenet s kolena na koleno, sa generacijskim
+                      poboljšanjima.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i>
+                    <span
+                      >Naša posvećenost detaljima i savetima komšinica čini
+                      ukuse neponovljivim.</span
+                    >
+                  </li>
+                </ul>
+                <div class="text-center">
+                  <a href="#book-a-table" class="more-btn">
+                    <span>Poruči odmah</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- End Left Box -->
+
+            <!-- Right Icon Boxes (opciono) -->
+            <div class="col-lg-8 d-flex align-items-stretch">
+              <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-xl-4">
+                  <div
+                    class="icon-box d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <i class="bi bi-emoji-smile"></i>
+                    <h4>Ukus koji osvaja</h4>
+                    <p>
+                      Naša baklava i urmašice zadovoljavaju i najzahtevnije
+                      sladokusce.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-xl-4">
+                  <div
+                    class="icon-box d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <i class="bi bi-award"></i>
+                    <h4>Kvalitet i tradicija</h4>
+                    <p>Generacije iskustva u pripremi savršenih slatkiša.</p>
+                  </div>
+                </div>
+
+                <div class="col-xl-4">
+                  <div
+                    class="icon-box d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <i class="bi bi-heart"></i>
+                    <h4>Sa ljubavlju pravljeno</h4>
+                    <p>Detalji i pažnja čine svaki komadić neponovljivim.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Right Icon Boxes -->
+          </div>
+        </div>
+      </section>
+      <!-- /Why Us Section -->
+
+      <!-- Menu Section -->
+      <section id="menu" class="menu section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Naš Meni</h2>
+          <p>
+            <span>Proverite naše</span>
+            <span class="description-title">baklave i urmašice</span>
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <p
+            class="text-center fst-italic"
+            data-aos="fade-up"
+            data-aos-delay="50"
+          >
+            U navedene cene su uračunati pakovanje i isporuka, u skladu sa
+            uslovima opisanim u sekciji
+            <a href="#book-a-table">Kako poručiti</a>.
+          </p>
+
+          <ul
+            class="nav nav-tabs d-flex justify-content-center"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active show"
+                data-bs-toggle="tab"
+                data-bs-target="#menu-starters"
+              >
+                <h4>Baklave sa orasima</h4>
+              </a>
+            </li>
+            <!-- End tab nav item -->
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#menu-breakfast"
+              >
+                <h4>Baklave sa pistaćima</h4> </a
+              ><!-- End tab nav item -->
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#menu-lunch"
+              >
+                <h4>Urmašice</h4>
+              </a>
+            </li>
+            <!-- End tab nav item -->
+          </ul>
+
+          <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+            <!-- Baklave sa orasima -->
+            <div class="tab-pane fade active show" id="menu-starters">
+              <div class="tab-header text-center">
+                <p></p>
+                <h3>Baklave sa orasima</h3>
+              </div>
+
+              <div class="row gy-5 justify-content-center">
+                <div class="col-lg-4 menu-item">
+                  <a href="assets/img/menu/menu-item-1.png" class="glightbox"
+                    ><img
+                      src="assets/img/menu/menu-item-1.png"
+                      class="menu-img img-fluid"
+                      alt=""
+                  /></a>
+
+                  <h4>Mrsnie baklave</h4>
+                  <p class="ingredients">
+                    Kore, mleveni orasi, šećer, puter, malo ulja,
+                  </p>
+                  <p class="ingredients">voda, limun, vanilin šećer i cimet.</p>
+                  <p class="price">1kg - 3.500 RSD</p>
+                  <p class="price">1/2kg - 2.000 RSD</p>
+                </div>
+                <div class="col-lg-4 menu-item">
+                  <a href="assets/img/menu/menu-item-2.png" class="glightbox"
+                    ><img
+                      src="assets/img/menu/menu-item-2.png"
+                      class="menu-img img-fluid"
+                      alt=""
+                  /></a>
+
+                  <h4>Posne baklave</h4>
+                  <p class="ingredients">Kore, mleveni orasi, šećer, ulje,</p>
+                  <p class="ingredients">voda, limun, vanilin šećer, cimet</p>
+                  <p class="price">1kg - 3.200 RSD</p>
+                  <p class="price">1/2kg - 1.800 RSD</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Starter Menu Content -->
+            <!-- End Baklave sa orasima -->
+
+            <!-- Baklave sa pistaćima -->
+            <div class="tab-pane fade" id="menu-breakfast">
+              <div class="tab-header text-center">
+                <p></p>
+                <h3>Baklave sa pistaćima</h3>
+              </div>
+
+              <div class="row gy-5 justify-content-center">
+                <div class="col-lg-4 menu-item">
+                  <a href="assets/img/menu/menu-item-3.png" class="glightbox"
+                    ><img
+                      src="assets/img/menu/menu-item-3.png"
+                      class="menu-img img-fluid"
+                      alt=""
+                  /></a>
+                  <h4>Mrsne baklave</h4>
+                  <p class="ingredients">
+                    Kore, mleveni pistaći, šećer, puter, malo ulja,
+                  </p>
+                  <p class="ingredients">voda, limun, vanilin šećer i cimet.</p>
+                  <p class="price">1kg - 4.000 RSD</p>
+                  <p class="price">1/2kg - 2.700 RSD</p>
+                </div>
+                <!-- Menu Item -->
+
+                <div class="col-lg-4 menu-item">
+                  <a href="assets/img/menu/menu-item-4.png" class="glightbox"
+                    ><img
+                      src="assets/img/menu/menu-item-4.png"
+                      class="menu-img img-fluid"
+                      alt=""
+                  /></a>
+                  <h4>Posnie baklave</h4>
+                  <p class="ingredients">Kore, mleveni pistaći, šećer, ulje,</p>
+                  <p class="ingredients">voda, limun, vanilin šećer, cimet</p>
+                  <p class="price">1kg - 3.800 RSD</p>
+                  <p class="price">1/2kg - 2.300 RSD</p>
+                </div>
+                <!-- Menu Item -->
+              </div>
+            </div>
+            <!-- End Breakfast Menu Content -->
+
+            <!-- End Baklave sa pistaćima -->
+
+            <!-- Urmašice -->
+            <div class="tab-pane fade" id="menu-lunch">
+              <div class="tab-header text-center">
+                <p></p>
+                <h3>Urmašice</h3>
+              </div>
+
+              <div class="row gy-5 justify-content-center">
+                <div class="col-lg-4 menu-item">
+                  <a href="assets/img/menu/menu-item-5.png" class="glightbox"
+                    ><img
+                      src="assets/img/menu/menu-item-5.png"
+                      class="menu-img img-fluid"
+                      alt=""
+                  /></a>
+                  <h4>Urmašice (mrsne)</h4>
+                  <p class="ingredients">
+                    Glatko brašno, jaja, šećer, puter, ulje, griz,
+                  </p>
+                  <p class="ingredients">prašak za pecivo, voda, limun</p>
+                  <p class="price">1kg -2.800 RSD</p>
+                  <p class="price">1/2kg - 1.500 RSD</p>
+                </div>
+                <!-- Menu Item -->
+              </div>
+            </div>
+
+            <!-- End Urmašice -->
+          </div>
+        </div>
+      </section>
+      <!-- /Menu Section -->
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="testimonials section light-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>MIŠLJENJA KUPACA</h2>
+          <p>
+            Šta kažu o
+            <span class="description-title">našim baklavama i urmašicama</span>
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                }
+              }
+            </script>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-6">
+                      <div class="testimonial-content">
+                        <p>
+                          <i class="bi bi-quote quote-icon-left"></i>
+                          <span
+                            >Baklave sa orasima su apsolutno fantastične! Svaki
+                            zalogaj je pun ukusa i savršeno sladak.
+                          </span>
+                          <i class="bi bi-quote quote-icon-right"></i>
+                        </p>
+                        <h3>Petar Petrović</h3>
+                        <h4>Sladokusac</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                      <img
+                        src="assets/img/testimonials/testimonials-1.jpg"
+                        class="img-fluid testimonial-img"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-6">
+                      <div class="testimonial-content">
+                        <p>
+                          <i class="bi bi-quote quote-icon-left"></i>
+                          <span>
+                            Urmašice su nežne i savršeno slatke, idealne za
+                            svaki desert. Moja omiljena poslasticа!
+                          </span>
+                          <i class="bi bi-quote quote-icon-right"></i>
+                        </p>
+                        <h3>Jovan Ilić</h3>
+                        <h4>Gurman</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                      <img
+                        src="assets/img/testimonials/testimonials-4.jpg"
+                        class="img-fluid testimonial-img"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-6">
+                      <div class="testimonial-content">
+                        <p>
+                          <i class="bi bi-quote quote-icon-left"></i>
+                          <span>
+                            Baklave sa pistaćima su prava poslastica! Topi se u
+                            ustima i odmah hoćeš još.
+                          </span>
+                          <i class="bi bi-quote quote-icon-right"></i>
+                        </p>
+                        <h3>Marija Jovanović</h3>
+                        <h4>Ljubitelj slatkiša</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                      <img
+                        src="assets/img/testimonials/testimonials-3.jpg"
+                        class="img-fluid testimonial-img"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- /Testimonials Section -->
+
+      <!-- Chefs Section -->
+      <section id="chefs" class="chefs section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Kuvari</h2>
+          <p>
+            <span>Naše</span>
+            <span class="description-title">Majstorice slatkiša<br /></span>
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-lg-4 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="team-member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/chefs/chefs-2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Aleksandra</h4>
+                  <span>Majstorica urmašica</span>
+                  <p>
+                    Marija stvara savršene urmašice sa bogatim filom i hrskavom
+                    korom, uvek vodeći računa o detaljima i prezentaciji.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Chef Team Member -->
+
+            <div
+              class="col-lg-4 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="team-member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/chefs/chefs-2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Mama</h4>
+                  <span>Specijalistkinja za baklave</span>
+                  <p>
+                    Mama majstorski priprema tradicionalne baklave i voli da
+                    kombinuje različite vrste oraha i meda za savršen ukus.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Chef Team Member -->
+
+            <div
+              class="col-lg-4 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="team-member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/chefs/chefs-2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Sestra</h4>
+                  <span>Kombinator ukusa</span>
+                  <p>
+                    Sestra eksperimentiše sa klasičnim i modernim receptima
+                    baklava i urmašica, stvarajući nove kombinacije ukusa koje
+                    osvajaju sve.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Chef Team Member -->
+          </div>
+        </div>
+      </section>
+      <!-- /Chefs Section -->
+
+      <!-- Book A Table Section -->
+      <!-- Book A Table Section (sada za Instagram poručivanje) -->
+      <!-- Book A Table Section (za Instagram poručivanje i dostavu) -->
+      <section id="book-a-table" class="book-a-table section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Kako poručiti</h2>
+          <p>
+            <span>Pošaljite</span>
+            <span class="description-title">poruku na Instagram DM</span>
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row g-0" data-aos="fade-up" data-aos-delay="100">
+            <!-- Slika -->
+            <div
+              class="col-lg-4 reservation-img"
+              style="background-image: url(assets/img/reservation.jpg)"
+            ></div>
+
+            <!-- Tekst instrukcije i dostave -->
+            <div
+              class="col-lg-8 d-flex align-items-center reservation-form-bg"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="php-email-form" style="padding: 30px">
+                <p>U poruci navedite:</p>
+                <ul>
+                  <li>Željenu vrstu i količinu</li>
+                  <li>Ime i prezime</li>
+                  <li>Adresu za isporuku</li>
+                  <li>Kontakt telefon</li>
+                  <li>Željeni datum isporuke</li>
+                </ul>
+
+                <p>
+                  Potrebno je poručiti najmanje četiri dana unapred.<br />
+                  Javićemo vam se u vezi sa tačnim vremenom isporuke.
+                </p>
+
+                <p>
+                  Dostavu vršimo na teritoriji užeg i šireg centra Beograda. Za
+                  porudžbine van šireg centra dostupno je preuzimanje, na
+                  lokaciji po dogovoru ili isporuka uz doplatu. Iznos doplate
+                  zavisi od kilometraže.
+                </p>
+
+                <p>
+                  Ukoliko želite sami da preuzmete svoj paket slatkog uživanja,
+                  naglasite to u poruci i dogovorićemo se oko mesta preuzimanja.
+                </p>
+
+                <div class="text-center mt-3">
+                  <a
+                    class="btn-getstarted"
+                    href="https://www.instagram.com/yourusername/"
+                    target="_blank"
+                  >
+                    Pošalji DM na Instagram
+                  </a>
+                </div>
+                <button type="submit">Book a Table</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Book A Table Section -->
+
+      <!-- /Book A Table Section -->
+      <!-- /Book A Table Section -->
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Kontakt</h2>
+          <p>
+            <span>Imate pitanje?</span>
+            <span class="description-title">Pišite nam!</span>
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-md-6">
+              <div
+                class="info-item d-flex align-items-center"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <i class="icon bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Pozovi nas</h3>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="col-md-6">
+              <div
+                class="info-item d-flex align-items-center"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <i class="icon bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Pošalji nam mejl</h3>
+                  <p>info@example.com</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Info Item -->
+          </div>
+
+          <form
+            action="forms/contact.php"
+            method="post"
+            class="php-email-form"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  placeholder="Tvoje ime je obavezno"
+                />
+              </div>
+
+              <div class="col-md-6">
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  placeholder="Tvoj mejl"
+                  required=""
+                />
+              </div>
+
+              <div class="col-md-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  placeholder="Predmet"
+                  required=""
+                />
+              </div>
+
+              <div class="col-md-12">
+                <textarea
+                  class="form-control"
+                  name="message"
+                  rows="6"
+                  placeholder="Poruka"
+                  required=""
+                ></textarea>
+              </div>
+
+              <div class="col-md-12 text-center">
+                <div class="loading">Učitava se</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Tvoja poruka je poslata. Hvala!</div>
+
+                <button type="submit">Pošalji poruku</button>
+              </div>
+            </div>
+          </form>
+          <!-- End Contact Form -->
+        </div>
+      </section>
+      <!-- /Contact Section -->
+    </main>
+
+    <footer id="footer" class="footer dark-background">
+      <div class="container">
+        <div class="row gy-3">
+          <div class="col-lg-3 col-md-6 d-flex">
+            <i class="bi bi-telephone icon"></i>
+            <div>
+              <h4>Kontakt</h4>
+              <p>
+                <strong>Telefon:</strong> <span>+1 5589 55488 55</span><br />
+                <strong>Email:</strong> <span>info@example.com</span><br />
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex"></div>
+          <div class="col-lg-3 col-md-6 d-flex"></div>
+
+          <div class="col-lg-3 col-md-6">
+            <h4>Pratite nas</h4>
+            <div class="social-links d-flex">
+              <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Autorska prava</span>
+          <strong class="px-1 sitename">Baklave&Urmašice</strong>
+          <span>Sva prava zadržana</span>
+        </p>
+        <div class="credits">
+          Dizajnirao
+          <a href="https://resume.tdispaces.com/">TDISpaces</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
