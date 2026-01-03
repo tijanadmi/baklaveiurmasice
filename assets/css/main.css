@@ -293,6 +293,31 @@ h6 {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
 
+.header .logo h1.sitename {
+  font-family: "Pacifico", "Brush Script MT", cursive;
+  font-size: 34px;
+  font-weight: 400;
+  color: #c4161c;
+  letter-spacing: 1px;
+  margin: 0;
+  line-height: 1;
+}
+
+/*.header .logo h1.sitename {
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #c4161c;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}*/
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -898,12 +923,42 @@ section,
   }
 }
 
+/*********** Dodat deo **********/
+
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+  }
+
+  .hero .col-lg-5 {
+    align-items: center;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+    line-height: 44px;
+  }
+
+  .hero p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero .d-flex {
+    justify-content: center;
+  }
+}
+
+/************** kraj dodatog dela ***********/
+
 /*--------------------------------------------------------------
 # Hero Image Okrugla
 --------------------------------------------------------------*/
 .hero-img-wrapper {
-  width: 400px; /* širina kvadrata za okruglu sliku */
-  height: 400px; /* visina jednaka širini */
+  width: 500px; /* širina kvadrata za okruglu sliku */
+  height: 500px; /* visina jednaka širini */
   overflow: hidden; /* sve van kruga se skriva */
   border-radius: 50%; /* pravi savršeni krug */
   margin: 0 auto; /* centriranje */
