@@ -972,6 +972,14 @@ section,
   border-radius: 50%; /* osigurava krug ako wrapper nije precizan */
 }
 
+@media (max-width: 768px) {
+  .hero-img-wrapper {
+    width: 260px;
+    height: 260px;
+    margin-bottom: 30px;
+  }
+}
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
