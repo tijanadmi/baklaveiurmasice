@@ -935,8 +935,9 @@ section,
   }
 
   .hero h1 {
-    font-size: 38px;
-    line-height: 44px;
+    margin: 0 0 24px 0;
+    font-size: 52px;
+    line-height: 1.15;
   }
 
   .hero p {
